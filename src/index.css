@@ -32,6 +32,29 @@ body {
   transform: scale(1.5);
 }
 
+.hog-tile {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.hog-tile:hover {
+  transform: scale(1.05);
+}
+
+header img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+
 
 .filterWrapper {
   margin: 2% 0;
